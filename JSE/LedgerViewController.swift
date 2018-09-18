@@ -15,7 +15,7 @@ import UIKit
  
  */
 
-class LedgerViewController: UIViewController, UITableViewDataSource {
+class LedgerViewController: UIViewController {
 
         var myLedger   :String = ""
         var btn_ledger :String = ""
@@ -29,14 +29,14 @@ class LedgerViewController: UIViewController, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.dataSource = self
+
         
         
         for i in 0...1000 {
             data.append("\(i)")
         }
         
-        tableView.dataSource = self
+ 
     }
     private var data: [String] = []
    
@@ -45,18 +45,7 @@ class LedgerViewController: UIViewController, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return data.count
-}
-func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")! //1.
-    
-    let text = data[indexPath.row] //2.
-    
-    cell.textLabel?.text = text //3.
-    
-    return cell //4.
-}
+
 
 
     func makeGetCall() {
@@ -110,10 +99,10 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
                 DispatchQueue.main.async {
                     print("Ledger String: \(todo[index1!].value)")
                     if let ledgerString = todo[index1!].value as? String {
-                        self.displayLedger.text = ledgerString
+                       // self.displayLedger.text = ledgerString
                     } else {
                         // Ooops
-                        self.displayLedger.text = "?? unknown ??"
+                      //self.displayLedger.text = "?? unknown ??"
                     }
                 }
                 print("myLedger I: \(btn_ledger)")
@@ -127,12 +116,5 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
         }
         task.resume()
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
 
-}
 
