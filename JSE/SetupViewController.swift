@@ -39,6 +39,7 @@ class SetupViewController: UIViewController {
     {
         //let defaults = UserDefaults.standardUserDefaults()
         UserDefaults.standard.removeObject(forKey:"UserID")
+        UserDefaults.standard.removeObject(forKey:"UserAPI")
         print(defaults.integer(forKey: "UserID"))
         let setUID = defaults.integer(forKey: "UserID")
         let alertController = UIAlertController(title: "UserID is now Deleted",
@@ -59,7 +60,14 @@ class SetupViewController: UIViewController {
         present(alertController, animated: true, completion: nil)
     }
     
-    
+    func warnNoAPI()
+    {
+
+        let alertController = UIAlertController(title: "UserAPI Required",
+                                                message: "Please set up your API and UID", preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        present(alertController, animated: true, completion: nil)
+    }
     
     
     

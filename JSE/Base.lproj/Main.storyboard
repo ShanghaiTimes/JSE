@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iyz-8o-kq5">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,14 +15,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JSE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5H8-Vb-g1R">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="mainStoryboardBackgroundMetal1125x2436.png" translatesAutoresizingMaskIntoConstraints="NO" id="JyL-Nt-Hur">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMD-RF-G7T">
                                         <rect key="frame" x="318" y="196" width="88" height="30"/>
@@ -60,7 +60,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L61-cH-sfM" userLabel="Settings">
-                                        <rect key="frame" x="8" y="690" width="38" height="38"/>
+                                        <rect key="frame" x="8" y="850" width="38" height="38"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="38" id="BT7-4b-TcI"/>
                                             <constraint firstAttribute="width" constant="38" id="Gy3-Ns-AzT"/>
@@ -125,14 +125,14 @@
             <objects>
                 <viewController id="5MG-Vs-Cfc" customClass="GetBalanceViewController" customModule="JSE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yZC-9d-75C">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about_gfxIco2.png" translatesAutoresizingMaskIntoConstraints="NO" id="0V4-mj-Edg">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGw-Gk-P47">
-                                <rect key="frame" x="57" y="357.66666666666669" width="300" height="21"/>
+                                <rect key="frame" x="57" y="437.66666666666669" width="300" height="21"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="W90-Vi-xiU"/>
@@ -180,11 +180,11 @@
             <objects>
                 <viewController id="ZzI-Mn-NOr" customClass="LedgerViewController" customModule="JSE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p2M-uk-Kj0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finalCoinColoured.png" translatesAutoresizingMaskIntoConstraints="NO" id="nL2-Zx-0ud">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="JSE Entire Ledger" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meF-JS-t81">
                                 <rect key="frame" x="40" y="122" width="136" height="21"/>
@@ -251,11 +251,11 @@
             <objects>
                 <viewController id="Amx-Uw-PEu" customClass="HistoryViewController" customModule="JSE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vES-cG-l4g">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carousel_1a.e4078a9.png" translatesAutoresizingMaskIntoConstraints="NO" id="cVY-yb-2sz">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="TransactionHistory" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bG2-MB-hQK">
                                 <rect key="frame" x="116" y="142" width="143" height="30"/>
@@ -292,14 +292,28 @@
             <objects>
                 <viewController id="crd-EP-Kaw" customClass="BalanceByIdViewController" customModule="JSE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E8F-uW-KLj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainStoryboardBackgroundMetal1125x2436.png" translatesAutoresizingMaskIntoConstraints="NO" id="P8r-0z-VCp">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65m-fo-g4c">
-                                <rect key="frame" x="84" y="245" width="0.0" height="0.0"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Balance:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUK-IE-GNV">
+                                <rect key="frame" x="16" y="223" width="66" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65m-fo-g4c">
+                                <rect key="frame" x="84" y="224" width="143" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
@@ -313,20 +327,9 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public Key:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSo-Tl-9W3">
-                                <rect key="frame" x="16" y="269" width="85" height="21"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2L-ke-scO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2L-ke-scO">
                                 <rect key="frame" x="16" y="195" width="62" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -337,35 +340,9 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6eK-dW-Z5u">
-                                <rect key="frame" x="16" y="292" width="288" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                        <integer key="value" value="2"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balance:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUK-IE-GNV">
-                                <rect key="frame" x="16" y="223" width="66" height="21"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ub0-uX-Mk2">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ub0-uX-Mk2">
                                 <rect key="frame" x="84" y="195" width="143" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
@@ -379,32 +356,42 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Public Key:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSo-Tl-9W3">
+                                <rect key="frame" x="16" y="269" width="85" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6eK-dW-Z5u">
+                                <rect key="frame" x="16" y="297" width="288" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="kSo-Tl-9W3" firstAttribute="leading" secondItem="Y2L-ke-scO" secondAttribute="leading" id="5AS-Km-KHO"/>
-                            <constraint firstItem="Dmp-1U-7Et" firstAttribute="bottom" secondItem="6eK-dW-Z5u" secondAttribute="bottom" constant="316" id="6pR-vN-BAr"/>
-                            <constraint firstItem="kSo-Tl-9W3" firstAttribute="leading" secondItem="6eK-dW-Z5u" secondAttribute="leading" id="8Zh-f0-WWs"/>
-                            <constraint firstItem="P8r-0z-VCp" firstAttribute="top" secondItem="E8F-uW-KLj" secondAttribute="top" id="COy-Oe-Qar"/>
-                            <constraint firstItem="Dmp-1U-7Et" firstAttribute="trailing" secondItem="ub0-uX-Mk2" secondAttribute="trailing" constant="187" id="Cgb-Ag-f1Y"/>
-                            <constraint firstItem="Dmp-1U-7Et" firstAttribute="trailing" secondItem="6eK-dW-Z5u" secondAttribute="trailing" constant="110" id="FM4-jH-v4e"/>
-                            <constraint firstItem="kSo-Tl-9W3" firstAttribute="top" secondItem="65m-fo-g4c" secondAttribute="bottom" constant="24" id="Flu-ew-ri8"/>
-                            <constraint firstItem="P8r-0z-VCp" firstAttribute="trailing" secondItem="Dmp-1U-7Et" secondAttribute="trailing" id="Qnm-Et-Ggr"/>
-                            <constraint firstItem="kSo-Tl-9W3" firstAttribute="top" secondItem="PUK-IE-GNV" secondAttribute="bottom" constant="25" id="SRn-gA-DxA"/>
-                            <constraint firstItem="Dmp-1U-7Et" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Y2L-ke-scO" secondAttribute="trailing" symbolic="YES" id="Td5-bu-fPX"/>
-                            <constraint firstItem="ub0-uX-Mk2" firstAttribute="bottom" secondItem="Y2L-ke-scO" secondAttribute="bottom" id="YlK-wM-jUO"/>
-                            <constraint firstItem="kSo-Tl-9W3" firstAttribute="top" secondItem="E8F-uW-KLj" secondAttribute="top" constant="269" id="Z92-ug-Vki"/>
-                            <constraint firstItem="kSo-Tl-9W3" firstAttribute="leading" secondItem="PUK-IE-GNV" secondAttribute="leading" id="aPO-vh-YJ0"/>
-                            <constraint firstItem="P8r-0z-VCp" firstAttribute="leading" secondItem="Dmp-1U-7Et" secondAttribute="leading" id="d51-2q-ng8"/>
-                            <constraint firstItem="ub0-uX-Mk2" firstAttribute="top" secondItem="Y2L-ke-scO" secondAttribute="top" id="ePL-fJ-NAq"/>
-                            <constraint firstItem="ub0-uX-Mk2" firstAttribute="leading" secondItem="65m-fo-g4c" secondAttribute="leading" id="f3E-NG-yUG"/>
-                            <constraint firstItem="6eK-dW-Z5u" firstAttribute="top" secondItem="kSo-Tl-9W3" secondAttribute="bottom" constant="2" id="fnF-yM-v46"/>
-                            <constraint firstItem="Dmp-1U-7Et" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="65m-fo-g4c" secondAttribute="trailing" symbolic="YES" id="fon-Tv-66X"/>
-                            <constraint firstItem="P8r-0z-VCp" firstAttribute="bottom" secondItem="Dmp-1U-7Et" secondAttribute="bottom" id="gIj-R1-Hed"/>
-                            <constraint firstItem="65m-fo-g4c" firstAttribute="leading" secondItem="PUK-IE-GNV" secondAttribute="trailing" constant="2" id="k9r-Ci-cIk"/>
-                            <constraint firstItem="kSo-Tl-9W3" firstAttribute="leading" secondItem="Dmp-1U-7Et" secondAttribute="leading" constant="16" id="kPt-9w-6Oe"/>
-                            <constraint firstItem="PUK-IE-GNV" firstAttribute="top" secondItem="Y2L-ke-scO" secondAttribute="bottom" constant="7" id="nha-XV-Gho"/>
-                            <constraint firstItem="Dmp-1U-7Et" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="kSo-Tl-9W3" secondAttribute="trailing" symbolic="YES" id="yml-Mb-CGx"/>
+                            <constraint firstItem="P8r-0z-VCp" firstAttribute="leading" secondItem="Dmp-1U-7Et" secondAttribute="leading" id="1ik-WN-QvM"/>
+                            <constraint firstItem="P8r-0z-VCp" firstAttribute="trailing" secondItem="Dmp-1U-7Et" secondAttribute="trailing" id="5GJ-He-nTo"/>
+                            <constraint firstItem="P8r-0z-VCp" firstAttribute="top" secondItem="E8F-uW-KLj" secondAttribute="top" id="glO-rf-27a"/>
+                            <constraint firstItem="Dmp-1U-7Et" firstAttribute="bottom" secondItem="P8r-0z-VCp" secondAttribute="bottom" id="qbX-lr-w1i"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Dmp-1U-7Et"/>
                     </view>
@@ -423,17 +410,17 @@
             <objects>
                 <viewController id="y75-Og-KtJ" customClass="AboutViewController" customModule="JSE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fx6-lp-fQe">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainStoryboardBackgroundMetal1125x2436.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rz2-P5-f53">
-                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MMk-hz-kji">
-                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="erF-O4-cpi">
-                                        <rect key="frame" x="8" y="8" width="398" height="656"/>
+                                        <rect key="frame" x="8" y="8" width="398" height="758"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <attributedString key="attributedText">
                                             <fragment content="JSE">
@@ -444,7 +431,7 @@
                                                 </attributes>
                                             </fragment>
                                             <fragment>
-                                                <string key="content"> is as you now know the Next Big Thing in Cryptocurrency. This interface has really only one purpose at present, and that is to give you feedback in a simple way, of your current JSE Balance from mining, bounty and sales combined. It's your total balance as held in your  </string>
+                                                <mutableString key="content"> is as you now know the Next Big Thing in Cryptocurrency. This interface has really only one purpose at present, and that is to give you feedback in a simple way, of your current JSE Balance from mining, bounty and sales combined. It's your total balance as held in your  </mutableString>
                                                 <attributes>
                                                     <font key="NSFont" size="14" name="AcademyEngravedLetPlain"/>
                                                 </attributes>
@@ -470,7 +457,20 @@
                                                 </attributes>
                                             </fragment>
                                             <fragment>
-                                                <string key="content">recent trip from the UK to Australia. This took me through Taiwan and the interface worked without issue in the UK, Taiwan and in Australia. It is my intention to improve on  the app over time, but for now all it does is read your balances. How do you use it? Couldn't be simpler really.  1. Set your userID from your JSECoin account by tapping on the little gear wheel on the bottom left of your opening screen. From there you can enter your userID, Delete your userID, or even just check your userID. Don't worry if you delete your userID - Just put it back in and save it. Presto Bumpo... job done. </string>
+                                                <mutableString key="content">recent trip from the UK to Australia. This took me through Taiwan and the interface worked without issue in the UK, Taiwan and in Australia. It is my intention to improve on  the app over time, but for now all it does is read your balances. How do you use it? Couldn't be simpler really.  1. Set your userID from your JSECoin account by tapping on the </mutableString>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="14" name="AcademyEngravedLetPlain"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="i">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="18" name="AbrilFatface-Regular"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <mutableString key="content"> icon on the bottom left of your opening screen. From there you can enter your userID, Delete your userID, or even just check your userID and as well your API Key. This is a must. You will have to go to the JSECoin Developer website to obtain a (free) API key.  Don't worry if you delete your userID - Just put it back in and save it. Presto Bumpo... job done. </mutableString>
                                                 <attributes>
                                                     <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" size="14" name="AcademyEngravedLetPlain"/>
@@ -483,7 +483,7 @@
                                                 </attributes>
                                             </fragment>
                                             <fragment>
-                                                <string key="content"> The interface likewise does not display your Public Key for security reasons. If you would like to see additions to the app, and they are within my power to implement, please contact me on the JSE Telegram Channel. </string>
+                                                <string key="content"> If you would like to see additions to the app, and they are within my power to implement, please contact me on the JSE Telegram Channel. </string>
                                                 <attributes>
                                                     <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" size="14" name="AcademyEngravedLetPlain"/>
@@ -496,7 +496,21 @@
                                                 </attributes>
                                             </fragment>
                                             <fragment>
-                                                <string key="content">ShanghaiTimes or via GitHub. This repo resides on github under ShanghaiTimes/JSE. Clone it and use your own API key and userID. If you really like using it, you can always send me a donation of either ETH, or of course JSE (preferred). Remember, do not put your own API key on a GitHub repo. Nor userID I guess.</string>
+                                                <string key="content">ShanghaiTimes or via GitHub. This repo resides on github under ShanghaiTimes/JSE. Clone it and use your own API key and userID. If you really like using it, you can always send me a donation of either ETH, to </string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="14" name="AcademyEngravedLetPlain"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="0xb68E2d3504D228bFC18A72220c52b4DbE3C64bC3 ">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="12" name="ArialMT"/>
+                                                    <real key="NSKern" value="0.0"/>
+                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="or of course JSE (preferred). Remember, do not put your own API key on a GitHub repo. Nor userID.">
                                                 <attributes>
                                                     <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" size="14" name="AcademyEngravedLetPlain"/>
@@ -539,11 +553,11 @@
             <objects>
                 <viewController id="Pfx-1o-Qkh" customClass="SetupViewController" customModule="JSE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xeL-wd-VUG" userLabel="View">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainStoryboardBackgroundMetal1125x2436.png" translatesAutoresizingMaskIntoConstraints="NO" id="azI-nl-3P4">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="5"/>
@@ -551,7 +565,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UserID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Brk-y8-FVO">
-                                <rect key="frame" x="65" y="150" width="53" height="21"/>
+                                <rect key="frame" x="65" y="174" width="53" height="21"/>
                                 <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="17"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -563,7 +577,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Input Your JSE Account UserID" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="XCu-0e-Syw" userLabel="set_uid">
-                                <rect key="frame" x="65" y="179" width="221" height="30"/>
+                                <rect key="frame" x="65" y="203" width="221" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -602,8 +616,8 @@
                                     <action selector="ShowUIDButtonWithSender:" destination="Pfx-1o-Qkh" eventType="touchUpInside" id="clC-gY-0AI"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Your API Key" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sah-OM-Yxa" userLabel="UserAPI">
-                                <rect key="frame" x="65" y="227" width="104" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Input Your API Key" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sah-OM-Yxa" userLabel="UserAPI">
+                                <rect key="frame" x="65" y="227" width="140" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -661,7 +675,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iyz-8o-kq5" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Pxh-lN-9Tu">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

@@ -41,7 +41,14 @@ class GetBalanceViewController: UIViewController {
         //let todoEndpoint: String = "https://api.jsecoin.com/v1.7/ledger/auth/"
         let todoEndpoint: String = "https://api.jsecoin.com/v1.7/checkuserid/"+String(UID)+"/auth/"
         let apiKey = (API)
-        
+        print(String(apiKey!.count))
+        let apiKeyCount = (String(apiKey!.count))
+        guard apiKeyCount == "32" else {
+            print("error - api wrong")
+            print(apiKeyCount)
+            warnNoAPI()
+            return
+        }
         
         guard let url = URL(string: todoEndpoint) else {
             print("Error: cannot create URL")
@@ -199,6 +206,13 @@ class GetBalanceViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func warnNoAPI()
+    {
+        
+        let alertController = UIAlertController(title: "UserAPI Required",
+                                                message: "Please set up your API and UID", preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        present(alertController, animated: true, completion: nil)
+    }
 
 }
