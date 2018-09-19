@@ -12,22 +12,25 @@ import UIKit
 class SetupViewController: UIViewController {
 
   
-   // Only need to record the User ID.
-   //@IBOutlet weak var user_id: UILabel!
+
     @IBOutlet weak var user_id: UITextField!
+    @IBOutlet weak var user_api: UITextField!
     
-    // dont need api. It just uses mine.
-    //@IBOutlet weak var api_key: UILabel!
+ 
     
     @IBAction func showMessage(sender: UIButton) {
-       //let myUserId = Int(user_id.text!)
-       // let myUserId = 7892
+       
         defaults.set(Int(user_id.text!), forKey: "UserID")
+        defaults.set(String(user_api.text!), forKey: "UserAPI")
+        
         print(defaults.integer(forKey: "UserID"))
+        print(defaults.integer(forKey: "UserAPI"))
+        
         let setUID = defaults.integer(forKey: "UserID")
-        let alertController = UIAlertController(title: "UserID is now set",
-                                                message: "UserID set to " + String(setUID), preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        let setAPI = defaults.string(forKey: "UserAPI")
+        let alertController = UIAlertController(title: "UserID & API is now set",
+                                                message: "UserID set to " + String(setUID) + "\n API: " + String(setAPI!), preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
         present(alertController, animated: true, completion: nil)
     }
     
@@ -39,8 +42,8 @@ class SetupViewController: UIViewController {
         print(defaults.integer(forKey: "UserID"))
         let setUID = defaults.integer(forKey: "UserID")
         let alertController = UIAlertController(title: "UserID is now Deleted",
-                                                message: "UserID set to " + String(setUID), preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                                                message: "UserID set to " + String(setUID), preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
         present(alertController, animated: true, completion: nil)
     }
     
@@ -51,8 +54,8 @@ class SetupViewController: UIViewController {
         print(defaults.integer(forKey: "UserID"))
         let UID = defaults.integer(forKey: "UserID")
         let alertController = UIAlertController(title: "Your Current UserID",
-                                                message: "UserID is " + String(UID), preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                                                message: "UserID is " + String(UID), preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
         present(alertController, animated: true, completion: nil)
     }
     
@@ -99,7 +102,7 @@ class SetupViewController: UIViewController {
     }
     
     func setDefault(sender: UIButton) {
-        let myUserId = 7892
+        let myUserId = 0
         defaults.set(myUserId, forKey: "UserID")
         
         let myAPIKey = "zx23f666"

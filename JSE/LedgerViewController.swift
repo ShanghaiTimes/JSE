@@ -97,6 +97,7 @@ class LedgerViewController: UIViewController {
         print("Stored Key: \(todo[index1!].key)")
         let btn_ledger = (todo[index1!].value)
                 DispatchQueue.main.async {
+                    
                     print("Ledger String: \(todo[index1!].value)")
                     if let ledgerString = todo[index1!].value as? String {
                        // self.displayLedger.text = ledgerString

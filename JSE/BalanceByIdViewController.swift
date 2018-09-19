@@ -36,14 +36,18 @@ class BalanceByIdViewController: UIViewController {
     //func makeGetCall(myBalance: String) -> String  {
     func makeGetCall() {
         // Set up the URL request
-        
         let defaults = UserDefaults.standard
-        print(defaults.integer(forKey: "UserID"))
+
         let UID = defaults.integer(forKey: "UserID")
-        //let todoEndpoint: String = "https://api.jsecoin.com/v1.7/balance/auth/0/"
-        //let todoEndpoint: String = "https://api.jsecoin.com/v1.7/ledger/auth/"
+        print(defaults.integer(forKey: "UserID"))
+        
+        let userAPI = (defaults.string(forKey: "UserAPI"))
+        print(defaults.string(forKey: "UserAPI")!)
         let todoEndpoint: String = "https://api.jsecoin.com/v1.7/checkuserid/"+String(UID)+"/auth/"
-        let apiKey = "xxxxxxxxx"
+        
+        //let todoEndpoint: String = "https://api.jsecoin.com/v1.7/balance/auth/0/"
+       // let todoEndpoint: String = "https://api.jsecoin.com/v1.7/checkuserid/"+String(UID)+"/auth/"
+        let apiKey = (userAPI)
         
         
         guard let url = URL(string: todoEndpoint) else {
@@ -108,8 +112,8 @@ class BalanceByIdViewController: UIViewController {
                     if let balanceString = todo[index1!].value as? Double {
                         self.btn_balance = String(balanceString)
                         self.displayBalanceById.text = String(balanceString)
-                        //self.displayPublicKey.text = String(describing:myPublicKey)
-                        self.displayPublicKey.text = "Public Key not available for display."
+                        self.displayPublicKey.text = String(describing:myPublicKey)
+                        //self.displayPublicKey.text = "Public Key not available for display."
                         self.displayMyID.text = String(describing:myID)
                     } else {
                         // Ooops

@@ -34,10 +34,13 @@ class GetBalanceViewController: UIViewController {
         print(defaults.integer(forKey: "UserID"))
         let UID = defaults.integer(forKey: "UserID")
         
+        print(defaults.string(forKey: "UserAPI")!)
+        let API = (defaults.string(forKey: "UserAPI"))
+        
        //let todoEndpoint: String = "https://api.jsecoin.com/v1.7/balance/auth/0/"
         //let todoEndpoint: String = "https://api.jsecoin.com/v1.7/ledger/auth/"
         let todoEndpoint: String = "https://api.jsecoin.com/v1.7/checkuserid/"+String(UID)+"/auth/"
-        let apiKey = "xxxxxxxxxx"
+        let apiKey = (API)
         
         
         guard let url = URL(string: todoEndpoint) else {
