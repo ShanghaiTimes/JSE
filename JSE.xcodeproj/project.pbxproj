@@ -19,7 +19,7 @@
 		E1519BCE20FF32EE00295321 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1519BCD20FF32EE00295321 /* AboutViewController.swift */; };
 		E159411621359671002A9F67 /* Temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E159411521359670002A9F67 /* Temp.swift */; };
 		E15DE0C621522770003BEE6F /* InfoS.png in Resources */ = {isa = PBXBuildFile; fileRef = E15DE0C521522770003BEE6F /* InfoS.png */; };
-		E174DDCC2109C7A800BD77C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E174DDCB2109C7A700BD77C8 /* Assets.xcassets */; };
+		E15DE0C821527637003BEE6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15DE0C721527637003BEE6F /* Assets.xcassets */; };
 		E174DDCE2109C7FF00BD77C8 /* about_gfxIco2.png in Resources */ = {isa = PBXBuildFile; fileRef = E174DDCD2109C7FF00BD77C8 /* about_gfxIco2.png */; };
 		E174DDD02109C82B00BD77C8 /* DesktopBkg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E174DDCF2109C82B00BD77C8 /* DesktopBkg.jpg */; };
 		E174DDD22109C88100BD77C8 /* bkgk2.png in Resources */ = {isa = PBXBuildFile; fileRef = E174DDD12109C88000BD77C8 /* bkgk2.png */; };
@@ -68,7 +68,7 @@
 		E1519BCD20FF32EE00295321 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		E159411521359670002A9F67 /* Temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp.swift; sourceTree = "<group>"; };
 		E15DE0C521522770003BEE6F /* InfoS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoS.png; sourceTree = "<group>"; };
-		E174DDCB2109C7A700BD77C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E15DE0C721527637003BEE6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E174DDCD2109C7FF00BD77C8 /* about_gfxIco2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_gfxIco2.png; sourceTree = "<group>"; };
 		E174DDCF2109C82B00BD77C8 /* DesktopBkg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DesktopBkg.jpg; sourceTree = "<group>"; };
 		E174DDD12109C88000BD77C8 /* bkgk2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkgk2.png; sourceTree = "<group>"; };
@@ -132,6 +132,7 @@
 		E1519BB020FDD8CE00295321 /* JSE */ = {
 			isa = PBXGroup;
 			children = (
+				E15DE0C721527637003BEE6F /* Assets.xcassets */,
 				E17561F12101D1D700D44F53 /* Images */,
 				E1519BB120FDD8CE00295321 /* AppDelegate.swift */,
 				E1519BB320FDD8CE00295321 /* ViewController.swift */,
@@ -144,7 +145,6 @@
 				E1519BC920FF274100295321 /* LedgerViewController.swift */,
 				E1519BCD20FF32EE00295321 /* AboutViewController.swift */,
 				E180EA6D21038F4E0085843C /* SetupViewController.swift */,
-				E174DDCB2109C7A700BD77C8 /* Assets.xcassets */,
 				E1519BBA20FDD8D000295321 /* LaunchScreen.storyboard */,
 				E1519BBD20FDD8D000295321 /* Info.plist */,
 			);
@@ -252,6 +252,7 @@
 				E174DDE52109C8FE00BD77C8 /* iconLarge2018mono.png in Resources */,
 				E174DDE22109C8FE00BD77C8 /* siteidentity.png in Resources */,
 				E174DDFA2109C96F00BD77C8 /* coin_silver.png in Resources */,
+				E15DE0C821527637003BEE6F /* Assets.xcassets in Resources */,
 				E174DDF22109C92300BD77C8 /* laptophero.jpg in Resources */,
 				E15DE0C621522770003BEE6F /* InfoS.png in Resources */,
 				E174DDE62109C8FE00BD77C8 /* iconLarge2018.png in Resources */,
@@ -267,7 +268,6 @@
 				E1519BB720FDD8CE00295321 /* Main.storyboard in Resources */,
 				E174DE0A2109FA0A00BD77C8 /* gearx60x60.png in Resources */,
 				E174DDE32109C8FE00BD77C8 /* 2018master.fw.png in Resources */,
-				E174DDCC2109C7A800BD77C8 /* Assets.xcassets in Resources */,
 				E174DDF32109C92300BD77C8 /* laptophero3.jpg in Resources */,
 				E174DE022109D35A00BD77C8 /* mainStoryboardBackgroundMetal1125x2436.png in Resources */,
 				E174DDE72109C8FE00BD77C8 /* 2018LOGOLARGE.png in Resources */,

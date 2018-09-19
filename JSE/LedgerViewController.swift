@@ -97,15 +97,17 @@ class LedgerViewController: UIViewController {
         print("Stored Key: \(todo[index1!].key)")
         let btn_ledger = (todo[index1!].value)
                 DispatchQueue.main.async {
-                    
+                    /*
                     print("Ledger String: \(todo[index1!].value)")
                     if let ledgerString = todo[index1!].value as? String {
-                       // self.displayLedger.text = ledgerString
+                       self.displayLedger.text = ledgerString
                     } else {
                         // Ooops
-                      //self.displayLedger.text = "?? unknown ??"
+                      self.displayLedger.text = "?? unknown ??"
                     }
+                     */
                 }
+ 
                 print("myLedger I: \(btn_ledger)")
                 //self.displayLedger.text = (btn_ledger)
                 //Could not cast value of type '__NSDictionaryI' (0x10ae73508) to 'NSString' (0x109fe42a8).
