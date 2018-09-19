@@ -118,6 +118,7 @@ class ViewController: UIViewController {
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
       */
 
+        // Lets learn how to use Git...
 
         // make the request
         let task = session.dataTask(with: urlRequest) {
