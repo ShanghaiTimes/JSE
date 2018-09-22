@@ -46,18 +46,26 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        var checkSetup: Bool
         let defaults = UserDefaults.standard
-        let onoroff = UserDefaults.standard.object(forKey: "SetupDone") as? Bool
+        //let alreadyDone = UserDefaults.standard.object(forKey: "SetupDone") as? Bool
+        let alreadyDone = UserDefaults.standard.bool(forKey: "SetupDone")
+        
         //print(onoroff!)
         
-        if (onoroff != nil && onoroff == false)
-        {
-            let alertController = UIAlertController(title: "UserAPI Required",
+        
+        checkSetup = alreadyDone ? true : false
+        
+      
+        if checkSetup {
+                    let alertController = UIAlertController(title: "UserAPI Required",
                                                     message: "Please set up your API and UID", preferredStyle: UIAlertController.Style.alert)
             alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
             present(alertController, animated: true, completion: nil)
+        } else {
+            print("Setup Done")
         }
-        
+      
         
         
         
