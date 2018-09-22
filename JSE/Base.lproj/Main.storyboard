@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iyz-8o-kq5">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -10,22 +10,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--JSE-->
+        <!--Main Menu-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JSE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5H8-Vb-g1R">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="mainStoryboardBackgroundMetal1125x2436.png" translatesAutoresizingMaskIntoConstraints="NO" id="JyL-Nt-Hur">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMD-RF-G7T">
-                                        <rect key="frame" x="224" y="196" width="88" height="30"/>
+                                        <rect key="frame" x="318" y="196" width="88" height="30"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="2CC-iB-7Vj"/>
@@ -49,7 +49,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0b-Bk-qpf">
-                                        <rect key="frame" x="217" y="285" width="49" height="30"/>
+                                        <rect key="frame" x="311" y="285" width="49" height="30"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="y88-u4-IEB"/>
@@ -60,7 +60,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L61-cH-sfM" userLabel="Settings">
-                                        <rect key="frame" x="8" y="522" width="38" height="38"/>
+                                        <rect key="frame" x="8" y="690" width="38" height="38"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="38" id="BT7-4b-TcI"/>
                                             <constraint firstAttribute="width" constant="38" id="Gy3-Ns-AzT"/>
@@ -105,7 +105,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="JSE" id="umB-Xq-fvw"/>
+                    <navigationItem key="navigationItem" title="Main Menu" id="umB-Xq-fvw"/>
                     <connections>
                         <segue destination="Amx-Uw-PEu" kind="show" identifier="historySegue" id="j6E-5c-qRe"/>
                         <segue destination="ZzI-Mn-NOr" kind="show" identifier="ledgerSegue" id="ZY2-OE-Qyn"/>
@@ -125,14 +125,14 @@
             <objects>
                 <viewController id="5MG-Vs-Cfc" customClass="GetBalanceViewController" customModule="JSE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yZC-9d-75C">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about_gfxIco2.png" translatesAutoresizingMaskIntoConstraints="NO" id="0V4-mj-Edg">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGw-Gk-P47">
-                                <rect key="frame" x="10" y="273.5" width="300" height="21"/>
+                                <rect key="frame" x="57" y="357.66666666666669" width="300" height="21"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="W90-Vi-xiU"/>
@@ -180,11 +180,11 @@
             <objects>
                 <viewController id="ZzI-Mn-NOr" customClass="LedgerViewController" customModule="JSE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p2M-uk-Kj0">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finalCoinColoured.png" translatesAutoresizingMaskIntoConstraints="NO" id="nL2-Zx-0ud">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JSE Entire Ledger" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meF-JS-t81">
                                 <rect key="frame" x="40" y="98" width="136" height="21"/>
@@ -205,7 +205,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lVt-df-3bl" userLabel="displayLedger">
-                                <rect key="frame" x="40" y="127" width="146" height="128"/>
+                                <rect key="frame" x="40" y="127" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="P0y-dQ-6z8"/>
@@ -215,14 +215,14 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9UE-PV-CdV">
-                                <rect key="frame" x="16" y="280" width="288" height="142"/>
+                                <rect key="frame" x="20" y="280" width="374" height="310"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellReuseIdentifier" id="IbZ-Jo-92B">
-                                        <rect key="frame" x="0.0" y="28" width="288" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="374" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IbZ-Jo-92B" id="IL7-4h-Geg">
-                                            <rect key="frame" x="0.0" y="0.0" width="288" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -261,11 +261,11 @@
             <objects>
                 <viewController id="Amx-Uw-PEu" customClass="HistoryViewController" customModule="JSE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vES-cG-l4g">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carousel_1a.e4078a9.png" translatesAutoresizingMaskIntoConstraints="NO" id="cVY-yb-2sz">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="TransactionHistory" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bG2-MB-hQK">
                                 <rect key="frame" x="116" y="142" width="143" height="30"/>
@@ -302,11 +302,11 @@
             <objects>
                 <viewController id="crd-EP-Kaw" customClass="BalanceByIdViewController" customModule="JSE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E8F-uW-KLj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainStoryboardBackgroundMetal1125x2436.png" translatesAutoresizingMaskIntoConstraints="NO" id="P8r-0z-VCp">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balance:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUK-IE-GNV">
                                 <rect key="frame" x="16" y="199" width="66" height="21"/>
@@ -321,7 +321,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65m-fo-g4c">
-                                <rect key="frame" x="84" y="200" width="100" height="21"/>
+                                <rect key="frame" x="84" y="200" width="194" height="21"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
@@ -348,7 +348,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ub0-uX-Mk2">
-                                <rect key="frame" x="84" y="171" width="100" height="21"/>
+                                <rect key="frame" x="84" y="171" width="194" height="21"/>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
@@ -375,7 +375,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6eK-dW-Z5u">
-                                <rect key="frame" x="16" y="273" width="194" height="253"/>
+                                <rect key="frame" x="16" y="273" width="288" height="421"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -434,28 +434,21 @@
             <objects>
                 <viewController id="y75-Og-KtJ" customClass="AboutViewController" customModule="JSE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fx6-lp-fQe">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainStoryboardBackgroundMetal1125x2436.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rz2-P5-f53">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MMk-hz-kji">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="erF-O4-cpi">
-                                        <rect key="frame" x="8" y="8" width="304" height="488"/>
+                                        <rect key="frame" x="8" y="8" width="398" height="656"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <attributedString key="attributedText">
-                                            <fragment content="JSE">
-                                                <attributes>
-                                                    <color key="NSColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
-                                                    <font key="NSOriginalFont" size="18" name="AcademyEngravedLetPlain"/>
-                                                </attributes>
-                                            </fragment>
                                             <fragment>
-                                                <mutableString key="content"> is as you now know the Next Big Thing in Cryptocurrency. This interface has really only one purpose at present, and that is to give you feedback in a simple way, of your current JSE Balance from mining, bounty and sales combined. It's your total balance as held in your  </mutableString>
+                                                <string key="content"> This interface has really only one purpose at present, and that is to give you feedback in a simple way, of your current JSE Balance from mining, bounty and sales combined. It's your total balance as held in your  </string>
                                                 <attributes>
                                                     <font key="NSFont" size="14" name="AcademyEngravedLetPlain"/>
                                                 </attributes>
@@ -467,10 +460,32 @@
                                                     <font key="NSOriginalFont" size="18" name="AcademyEngravedLetPlain"/>
                                                 </attributes>
                                             </fragment>
-                                            <fragment content="  ">
+                                            <fragment content="   ">
                                                 <attributes>
                                                     <color key="NSColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" size="18" name="AcademyEngravedLetPlain"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="NOTE:">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="14" name="AcademyEngravedLetPlain"/>
+                                                    <font key="NSOriginalFont" size="14" name="AcademyEngravedLetPlain"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content"> The userID and API Key supplied is a common public set of keys for testing only. You must replace these with your own, otherwise you will not be able to get a true reading of your account balance.</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="14" name="AcademyEngravedLetPlain"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content"> 
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="14" name="AcademyEngravedLetPlain"/>
                                                 </attributes>
                                             </fragment>
                                             <fragment content="I designed this interface so that it works from anywhere in the world. Indeed I have used it on a ">
@@ -519,22 +534,7 @@
                                                     <font key="NSFont" size="14" name="Times-Roman"/>
                                                 </attributes>
                                             </fragment>
-                                            <fragment>
-                                                <string key="content">ShanghaiTimes or via GitHub. This repo resides on github under ShanghaiTimes/JSE. Clone it and use your own API key and userID. If you really like using it, you can always send me a donation of either ETH, to </string>
-                                                <attributes>
-                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" size="14" name="AcademyEngravedLetPlain"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment content="0xb68E2d3504D228bFC18A72220c52b4DbE3C64bC3 ">
-                                                <attributes>
-                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" size="12" name="ArialMT"/>
-                                                    <real key="NSKern" value="0.0"/>
-                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment content="or of course JSE (preferred). Remember, do not put your own API key on a GitHub repo. Nor userID.">
+                                            <fragment content="ShanghaiTimes or via GitHub. ">
                                                 <attributes>
                                                     <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" size="14" name="AcademyEngravedLetPlain"/>
@@ -577,19 +577,19 @@
             <objects>
                 <viewController id="Pfx-1o-Qkh" customClass="SetupViewController" customModule="JSE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xeL-wd-VUG" userLabel="View">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainStoryboardBackgroundMetal1125x2436.png" translatesAutoresizingMaskIntoConstraints="NO" id="azI-nl-3P4">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UserID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Brk-y8-FVO">
-                                <rect key="frame" x="65" y="150" width="53" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UserID &amp; Public API Key" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Brk-y8-FVO">
+                                <rect key="frame" x="65" y="150" width="189" height="21"/>
                                 <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="17"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -600,8 +600,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Input Your JSE Account UserID" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="XCu-0e-Syw" userLabel="set_uid">
-                                <rect key="frame" x="65" y="179" width="221" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="110638" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="XCu-0e-Syw" userLabel="set_uid">
+                                <rect key="frame" x="65" y="179" width="69" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -612,7 +612,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HX8-wz-HHd">
-                                <rect key="frame" x="111" y="285" width="45" height="30"/>
+                                <rect key="frame" x="205" y="285" width="45" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Delete"/>
                                 <userDefinedRuntimeAttributes>
@@ -640,8 +640,8 @@
                                     <action selector="ShowUIDButtonWithSender:" destination="Pfx-1o-Qkh" eventType="touchUpInside" id="clC-gY-0AI"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Input Your API Key" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sah-OM-Yxa" userLabel="UserAPI">
-                                <rect key="frame" x="65" y="227" width="140" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="NVp1xWOlILgcm6UX0cqtDJAL7s2UENpG" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sah-OM-Yxa" userLabel="UserAPI">
+                                <rect key="frame" x="65" y="227" width="290" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
@@ -659,6 +659,18 @@
                                     <action selector="showMessageWithSender:" destination="Pfx-1o-Qkh" eventType="touchUpInside" id="u96-zm-YA6"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please replace with your own userID and API Key" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81V-gX-gZp">
+                                <rect key="frame" x="75" y="112" width="264.33333333333331" height="14"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -667,6 +679,7 @@
                             <constraint firstItem="gQ1-cz-TAZ" firstAttribute="leading" secondItem="XCu-0e-Syw" secondAttribute="leading" id="6eb-c5-SOT"/>
                             <constraint firstItem="2l2-sd-9XN" firstAttribute="trailing" secondItem="azI-nl-3P4" secondAttribute="trailing" id="81a-xZ-51h"/>
                             <constraint firstItem="gQ1-cz-TAZ" firstAttribute="baseline" secondItem="HX8-wz-HHd" secondAttribute="baseline" id="BjN-CP-5kk"/>
+                            <constraint firstItem="81V-gX-gZp" firstAttribute="centerX" secondItem="xeL-wd-VUG" secondAttribute="centerX" id="DQk-QX-q3h"/>
                             <constraint firstItem="gQ1-cz-TAZ" firstAttribute="leading" secondItem="2l2-sd-9XN" secondAttribute="leading" constant="65" id="FYp-t2-TYU"/>
                             <constraint firstItem="gQ1-cz-TAZ" firstAttribute="top" secondItem="Sah-OM-Yxa" secondAttribute="bottom" constant="28" id="JEz-sn-bOZ"/>
                             <constraint firstItem="XCu-0e-Syw" firstAttribute="top" secondItem="Brk-y8-FVO" secondAttribute="bottom" constant="8" id="SVA-Ei-jAs"/>
@@ -677,6 +690,7 @@
                             <constraint firstItem="Brk-y8-FVO" firstAttribute="top" secondItem="2l2-sd-9XN" secondAttribute="top" constant="86" id="jQh-pJ-T8K"/>
                             <constraint firstItem="CRl-uW-z7F" firstAttribute="top" secondItem="gQ1-cz-TAZ" secondAttribute="bottom" constant="53" id="mgJ-iE-6kO"/>
                             <constraint firstItem="azI-nl-3P4" firstAttribute="leading" secondItem="2l2-sd-9XN" secondAttribute="leading" id="pjW-Ai-Kom"/>
+                            <constraint firstItem="81V-gX-gZp" firstAttribute="top" secondItem="2l2-sd-9XN" secondAttribute="top" constant="48" id="puM-VY-X11"/>
                             <constraint firstItem="gQ1-cz-TAZ" firstAttribute="leading" secondItem="Brk-y8-FVO" secondAttribute="leading" id="td4-ii-bTs"/>
                             <constraint firstItem="azI-nl-3P4" firstAttribute="top" secondItem="xeL-wd-VUG" secondAttribute="top" id="tyC-MX-sJr"/>
                             <constraint firstItem="HX8-wz-HHd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gQ1-cz-TAZ" secondAttribute="trailing" symbolic="YES" id="wnu-F6-Zuz"/>
@@ -699,7 +713,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iyz-8o-kq5" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Pxh-lN-9Tu">
-                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

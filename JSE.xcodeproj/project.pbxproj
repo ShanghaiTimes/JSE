@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E126C4A82154D80F00536218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E126C4A72154D80F00536218 /* Assets.xcassets */; };
 		E1519BB220FDD8CE00295321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1519BB120FDD8CE00295321 /* AppDelegate.swift */; };
 		E1519BB420FDD8CE00295321 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1519BB320FDD8CE00295321 /* ViewController.swift */; };
 		E1519BB720FDD8CE00295321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1519BB520FDD8CE00295321 /* Main.storyboard */; };
@@ -19,7 +20,6 @@
 		E1519BCE20FF32EE00295321 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1519BCD20FF32EE00295321 /* AboutViewController.swift */; };
 		E159411621359671002A9F67 /* Temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E159411521359670002A9F67 /* Temp.swift */; };
 		E15DE0C621522770003BEE6F /* InfoS.png in Resources */ = {isa = PBXBuildFile; fileRef = E15DE0C521522770003BEE6F /* InfoS.png */; };
-		E15DE0C821527637003BEE6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15DE0C721527637003BEE6F /* Assets.xcassets */; };
 		E174DDCE2109C7FF00BD77C8 /* about_gfxIco2.png in Resources */ = {isa = PBXBuildFile; fileRef = E174DDCD2109C7FF00BD77C8 /* about_gfxIco2.png */; };
 		E174DDD02109C82B00BD77C8 /* DesktopBkg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E174DDCF2109C82B00BD77C8 /* DesktopBkg.jpg */; };
 		E174DDD22109C88100BD77C8 /* bkgk2.png in Resources */ = {isa = PBXBuildFile; fileRef = E174DDD12109C88000BD77C8 /* bkgk2.png */; };
@@ -54,6 +54,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E126C4A72154D80F00536218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1519BAE20FDD8CE00295321 /* JSE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1519BB120FDD8CE00295321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1519BB320FDD8CE00295321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,7 +69,6 @@
 		E1519BCD20FF32EE00295321 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		E159411521359670002A9F67 /* Temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp.swift; sourceTree = "<group>"; };
 		E15DE0C521522770003BEE6F /* InfoS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoS.png; sourceTree = "<group>"; };
-		E15DE0C721527637003BEE6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E174DDCD2109C7FF00BD77C8 /* about_gfxIco2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_gfxIco2.png; sourceTree = "<group>"; };
 		E174DDCF2109C82B00BD77C8 /* DesktopBkg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DesktopBkg.jpg; sourceTree = "<group>"; };
 		E174DDD12109C88000BD77C8 /* bkgk2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkgk2.png; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		E1519BB020FDD8CE00295321 /* JSE */ = {
 			isa = PBXGroup;
 			children = (
-				E15DE0C721527637003BEE6F /* Assets.xcassets */,
+				E126C4A72154D80F00536218 /* Assets.xcassets */,
 				E17561F12101D1D700D44F53 /* Images */,
 				E1519BB120FDD8CE00295321 /* AppDelegate.swift */,
 				E1519BB320FDD8CE00295321 /* ViewController.swift */,
@@ -252,7 +252,7 @@
 				E174DDE52109C8FE00BD77C8 /* iconLarge2018mono.png in Resources */,
 				E174DDE22109C8FE00BD77C8 /* siteidentity.png in Resources */,
 				E174DDFA2109C96F00BD77C8 /* coin_silver.png in Resources */,
-				E15DE0C821527637003BEE6F /* Assets.xcassets in Resources */,
+				E126C4A82154D80F00536218 /* Assets.xcassets in Resources */,
 				E174DDF22109C92300BD77C8 /* laptophero.jpg in Resources */,
 				E15DE0C621522770003BEE6F /* InfoS.png in Resources */,
 				E174DDE62109C8FE00BD77C8 /* iconLarge2018.png in Resources */,

@@ -25,7 +25,7 @@ class SetupViewController: UIViewController {
         
         print(defaults.integer(forKey: "UserID"))
         print(defaults.integer(forKey: "UserAPI"))
-        
+
         let setUID = defaults.integer(forKey: "UserID")
         let setAPI = defaults.string(forKey: "UserAPI")
         let alertController = UIAlertController(title: "UserID & API is now set",
@@ -80,7 +80,10 @@ class SetupViewController: UIViewController {
         // defaults.set(true, forKey: "HasAppBeenOpenedBefore")
         // This prints out the uid when I open any window?
         print(defaults.integer(forKey: "UserID"))
-
+        
+        defaults.set(true, forKey: "SetupDone")
+        print("Setup Done")
+        
         /*
          @IBAction func deleteButton(sender: UIButton)
          {
